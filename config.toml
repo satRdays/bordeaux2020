@@ -52,10 +52,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     brand = "satRday"
     # Optional logo as brand stored in img/
     logo = "logo.png"
-    services = "About"
+    services = "A propos"
     portfolio = "Talks"
     eventbrite = "Register"
-    schedule = "Schedule"
+    schedule = "Programme"
     team = "People"
     contact = "Get involved"
 
@@ -80,16 +80,16 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday [My City]"
-    subtitle = "A conference for users of the R Language on [Conference Date]"
+    title = "satRday Bordeaux"
+    subtitle = "Conférence pour les utilisateurs de R du 14 mars 2020"
     bg = true
-    buttonText = "Tell me more"
+    buttonText = "En savoir plus"
 
 
   # About [Services] section
   [params.services]
     enable = true
-    title = "About"
+    title = "A propos"
     subtitle = "Conference Details"
 
     [[params.services.row]]
