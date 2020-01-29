@@ -1,8 +1,8 @@
 # Site settings
-baseurl = "https://eventtemplate.satrdays.org" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
+baseurl = "https://bordeaux2020.satrdays.org" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
 languageCode = "en-us"
 title = "satRday"
-theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
+theme = ["hugo-satrdays-theme"]
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -20,8 +20,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday [My City]"
-  description = "R conference in [My City]"
+  name = "satRday Bordeaux"
+  description = "R conference in Bordeaux"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -144,8 +144,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     title = "Register"
     bg = true
-    eid = "32416000129" 
-      # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB 
+    eid = "32416000129"
+      # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB
       # Follow instructions to discover your 'Website Integration' embeddable iframe
       # Take ONLY the numeric string between "eid=" and "&ref=etckt"
       # Supply this string as the value to `eid` above
@@ -158,7 +158,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # Go to www.tickettailor.com and open your event page
       # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
       # Supply the number ONLY in `eventviewid`
-  
+
   # Call for papers section
   [params.callforpapers]
     enable = true
@@ -167,18 +167,18 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     CfSpage = "/test3490"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
     dates = "09 Aug - 21 Sep 2018"
-  
+
   # Hackathon section
   [params.hackathon]
     enable = true
     bg = false
     title = "Hackathon"
     subtitle="Can you _Hack_ it?"
-    brief1="You _can_ put markdown in the briefs section" 
+    brief1="You _can_ put markdown in the briefs section"
     brief2="But you __MUST__ hardcode html links <a href= 'www.google.com' > google  </a> for further info."
     location= "The place we're going it"
     dates = "15 November 2019"
-    times= "13:00-17:30"  
+    times= "13:00-17:30"
     website_name="google"
     website_url="www.google.com"
 
@@ -238,7 +238,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       date = "Fourth Date"
       title = "Call For Papers Ends"
       description = "Cut off date for speaker submissions"
-  
+
   # Location section
   [params.location]
     enable = true
@@ -256,7 +256,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     bg = false
     description = ""
     speakers = "Speakers"
-    
+
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -328,7 +328,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.clients]]
       logo = "creative-market.jpg"
       link = "#"
-  
+
   [params.diversity]
     enable = true
     title = "Diversity"
