@@ -2,7 +2,7 @@
 baseurl = "https://bordeaux2020.satrdays.org" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
 languageCode = "en-us"
 title = "satRday"
-theme = ["hugo-satrdays-theme"]
+theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -52,10 +52,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     brand = "satRday"
     # Optional logo as brand stored in img/
     logo = "logo.png"
-    services = "A propos"
+    services = "About"
     portfolio = "Talks"
     eventbrite = "Register"
-    schedule = "Programme"
+    schedule = "Schedule"
     team = "People"
     contact = "Get involved"
 
@@ -80,16 +80,16 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday Bordeaux"
-    subtitle = "Conférence pour les utilisateurs de R du 14 mars 2020"
+    title = "satRday [My City]"
+    subtitle = "A conference for users of the R Language on [Conference Date]"
     bg = true
-    buttonText = "En savoir plus"
+    buttonText = "Tell me more"
 
 
   # About [Services] section
   [params.services]
     enable = true
-    title = "A propos"
+    title = "About"
     subtitle = "Conference Details"
 
     [[params.services.row]]
