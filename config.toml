@@ -263,42 +263,42 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
-      reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
+      name = "Grégoire Lecampion"
+      position = "Ingénieur d'études"
+      livesIn = "[Bordeaux, France](#some-maps-url)"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "https://fr.linkedin.com/in/gregoire-le-campion-35684ab0"]
       ]
 
     [[params.team.members]]
       img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
+      name = "Marylène Henry"
+      position = "Statisticienne"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/henry_marylene"],
+        ["fa-github", "https://github.com/MaryleneH"],
+        ["fa-linkedin", "https://fr.linkedin.com/in/marylene-henry"]
       ]
 
     [[params.team.members]]
       img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
+      name = "Sandrine Lyser"
+      position = "Statisticienne"
       social = [
         ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-github", "https://github.com/sandrinelyser"],
+        ["fa-linkedin", "https://fr.linkedin.com/in/sandrinelyser"]
+      ]
+    [[params.team.members]]
+      img = "faceholder.png"
+      name = "David Carayon"
+      position = "Statisticien"
+      social = [
+        ["fa-twitter", "https://twitter.com/david_carayon"],
+        ["fa-github", "https://github.com/davidcarayon"],
+        ["fa-linkedin", "https://fr.linkedin.com/in/carayon-david"]
       ]
 
   # Client section
