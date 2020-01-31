@@ -1,12 +1,12 @@
 modalID: 1
-title: "First Talk"
+title: "Tidyverse"
 subtitle: "First Subtitle"
-date: 1970-01-01
-startsAt: 00:00
-endsAt: 00:01
+date: 2020-03-14
+startsAt: 09:30
+endsAt: 10:15
 img: roundicons.png
 preview: faceholder.png
-client: Speaker One
+client: Romain François
 clientLink: "#"
 category: Category 1
 description: "Describe 1"

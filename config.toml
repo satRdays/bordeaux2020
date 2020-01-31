@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://bordeaux2020.satrdays.org" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
 languageCode = "en-us"
-title = "satRday"
+title = "satRday Bordeaux"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
 
 # Enter your tracking code to enable Google Analytics
@@ -21,7 +21,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "satRday Bordeaux"
-  description = "R conference in Bordeaux"
+  description = "Une conférence autour de R à Bordeaux"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -35,8 +35,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    heading = "Page introuvable"
+    text = "Merci de vous rediriger vers [cette page](https://bordeaux2020.satrdays.org)"
 
   # Optional piwik tracking
   #[params.analytics.piwik]
@@ -53,11 +53,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Optional logo as brand stored in img/
     logo = "logo.png"
     services = "A propos"
-    portfolio = "Talks"
-    eventbrite = "Register"
+    portfolio = "Communications"
+    eventbrite = "Inscriptions"
     schedule = "Programme"
-    team = "People"
-    contact = "Get involved"
+    team = "Organisateurs"
+    contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -81,7 +81,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Bordeaux"
-    subtitle = "Conférence pour les utilisateurs de R du 14 mars 2020"
+    subtitle = "Conférence pour les utilisateurs de R le 14 mars 2020"
     bg = true
     buttonText = "En savoir plus"
 
@@ -97,7 +97,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = "[Conference Date] at [Conference Location]"
+      description = "14 mars 2020 at Bordeaux"
       url = "#"
 
     [[params.services.row.list]]
@@ -133,7 +133,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Register section
   # You only need ONE of these active
   [params.tito]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     accountevent = "ultimateconf/2013"
@@ -141,7 +141,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # include botht the account and event in a string, seperated by /, with no spaces
 
   [params.eventbrite]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     eid = "32416000129"
@@ -151,7 +151,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # Supply this string as the value to `eid` above
 
   [params.tickettailor]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     eventviewid = "162430"
@@ -161,7 +161,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Call for papers section
   [params.callforpapers]
-    enable = true
+    enable = false
     title = "Call For Papers"
     bg = false
     CfSpage = "/test3490"
@@ -170,7 +170,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Hackathon section
   [params.hackathon]
-    enable = true
+    enable = false
     bg = false
     title = "Hackathon"
     subtitle="Can you _Hack_ it?"
@@ -189,7 +189,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Talks"
+    title = "Communications"
     subtitle = "Who's saying what"
     bg = true
 
@@ -202,7 +202,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Schedule section
   [params.schedule]
     enable = true
-    title = "Schedule"
+    title = "Programme"
     bg = false
 
   # Important Dates [About] section
@@ -244,14 +244,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     title = "Location title"
     bg = true
-    iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12770.336629178193!2d174.7680403!3d-36.8524341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x868a73f26ed3e621!2sDepartment+of+Statistics%2C+University+of+Auckland!5e0!3m2!1sen!2suk!4v1533231461829"
+    iframesrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.5671673568268!2d-0.5643933844636646!3d44.83038177909864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd55264aa7042fd5%3A0xbf74f9f084708538!2s1%20Rue%20Jacques%20Ellul%2C%2033800%20Bordeaux!5e0!3m2!1sfr!2sfr!4v1580475862000!5m2!1sfr!2sfr"
 
   # Team section
   [params.team]
     enable = true
     # Possibility to center items
     #center = true
-    title = "Team"
+    title = "Organisateurs"
     subtitle = "The people putting it together"
     bg = false
     description = ""
@@ -337,9 +337,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    title = "Contactez-nous"
+    subtitle  = ""
+    buttonText = "Envoyer un message"
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a

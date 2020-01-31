@@ -1,12 +1,12 @@
 modalID: 2
-title: "Second Talk"
+title: "Textmining"
 subtitle: "Second Subtitle"
-date: 1970-01-01
-startsAt: 00:01
-endsAt: 00:02
+date: 2020-03-14
+startsAt: 10:15
+endsAt: 11:00
 img: roundicons.png
 preview: faceholder.png
-client: Speaker Two
+client: Bénédicte Garnier 
 clientLink: "#"
 category: Category 2
 description: "Describe 2"

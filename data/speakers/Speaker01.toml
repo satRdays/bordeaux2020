@@ -1,10 +1,10 @@
 img = "faceholder.png"
-name = "Speaker Name 01"
-organisation = "Company 1"
-role = "Role 1"
+name = "Romain François"
+organisation = "RStudio, Inc."
+role = "Software Engineer"
 social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"],
+        ["fa-twitter", "https://twitter.com/romain_francois"],
+        ["fa-github", "https://github.com/romainfrancois"],
+        ["fa-linkedin", "https://fr.linkedin.com/in/romain-francois"],
         ["fa-globe", "#"]
       ]
