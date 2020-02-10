@@ -1,13 +1,13 @@
 modalID: 1
-title: "Textmining"
-subtitle: "Bénédicte Garnier"
+title: "Colin Fay"
+subtitle: "Elaborer des applications Shiny performantes avec {golem}"
 date: 2020-03-14
-startsAt: 10:15
-endsAt: 11:00
+startsAt: 09:15
+endsAt: 10:00
 img: roundicons.png
-preview: faceholder.png
-client: Bénédicte Garnier 
+preview: colin.jpg
+client: Colin Fay
 clientLink: "#"
 category: Category 2
-description: "Describe 2"
+description: "Shiny is an amazing tool when it comes to creating web applications with R. Building a proof-of-concept application is easy, but things change when the application becomes larger and more complex, especially when it comes to sending that app to production. Until recently, there hasn't been any real framework for building and deploying production-grade Shiny apps. This is where {golem} comes into play: offering Shiny developers an opinionated framework for creating production-ready Shiny applications. With {golem}, Shiny developers now have a toolkit for making a stable, easy-to-maintain, and robust for production web application with R. {golem} has been developed to abstract away the most common engineering tasks (for example, module creation, the addition of external CSS or JavaScript file, ...), so you can focus on what matters: building the application. Once your application is ready to be deployed, {golem} guides you through testing and brings you the tool for deploying to common platforms."
 talk: true
