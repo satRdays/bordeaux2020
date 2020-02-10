@@ -166,15 +166,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hackathon]
     enable = false
     bg = false
-    title = "Hackathon"
-    subtitle="Can you _Hack_ it?"
-    brief1="You _can_ put markdown in the briefs section"
-    brief2="But you __MUST__ hardcode html links <a href= 'www.google.com' > google  </a> for further info."
-    location= "The place we're going it"
-    dates = "15 November 2019"
-    times= "13:00-17:30"
-    website_name="google"
-    website_url="www.google.com"
+    # title = "Hackathon"
+    # subtitle="Can you _Hack_ it?"
+    # brief1="You _can_ put markdown in the briefs section"
+    # brief2="But you __MUST__ hardcode html links <a href= 'www.google.com' > google  </a> for further info."
+    # location= "The place we're going it"
+    # dates = "15 November 2019"
+    # times= "13:00-17:30"
+    # website_name="google"
+    # website_url="www.google.com"
 
   # Talk [Portfolio] section
   [params.portfolio]
