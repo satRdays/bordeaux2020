@@ -21,7 +21,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "satRday Bordeaux"
-  description = "Une conférence autour de R à Bordeaux"
+  description = "Une conférence dédiée aux utilisateurs de R"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -98,37 +98,31 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       icon = "fa-clock-o"
       title = "Où et quand"
       description = "Le 16 mai 2020 à Bordeaux"
-      url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "De la théorie à la pratique"
       description = "Etudes de cas et sessions parallèles en workshop"
-      url = "#"
 
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
       title = "Partage de connaissances"
       description = "Bénéficiez des connaissances de vos pairs et de professionnels expérimentés"
-      url = "#"
 
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Communauté R"
       description = "Organisé par la communauté, pour la communauté"
-      url = "#"
 
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Prix abordable"
       description = "Inscription gratuite à la conférence"
-      url = "#"
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
       title = "Accessible"
       description = "Un environnement inclusif, encourageant et respectueux"
-      url = "#"
 
   # Register section
   # You only need ONE of these active
