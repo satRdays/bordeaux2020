@@ -81,7 +81,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Bordeaux"
-    subtitle = "Conférence pour les utilisateurs de R le 14 mars 2020"
+    subtitle = "Une conférence dédiée aux utilisateurs de R le 16 mai 2020 à Bordeaux"
     bg = true
     buttonText = "En savoir plus"
 
@@ -90,44 +90,44 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.services]
     enable = true
     title = "A propos"
-    subtitle = "Conference Details"
+    subtitle = "La conférence en 6 points"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-clock-o"
-      title = "Details"
-      description = "14 mars 2020 at Bordeaux"
+      title = "Où et quand"
+      description = "Le 16 mai 2020 à Bordeaux"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Hands on"
-      description = "Practical applications and workshop sessions"
+      title = "De la théorie à la pratique"
+      description = "Etudes de cas et sessions parallèles en workshop"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
-      title = "Learning"
-      description = "Gain knowledge from your peers and experienced professionals"
+      title = "Partage de connaissances"
+      description = "Bénéficiez des connaissances de vos pairs et de professionnels expérimentés"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-users"
-      title = "Community Lead"
-      description = "Community organised, community focussed"
+      title = "Communauté R"
+      description = "Organisé par la communauté, pour la communauté"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-money"
-      title = "Affordable"
-      description = "Only [£30]"
+      title = "A prix abordable"
+      description = "Inscription gratuite"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
       title = "Accessible"
-      description = "Inclusive, supportive and respectful environment"
+      description = "Un environnement inclusif, encourageant et respectueux"
       url = "#"
 
   # Register section
@@ -161,12 +161,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Call for papers section
   [params.callforpapers]
-    enable = false
-    title = "Call For Papers"
+    enable = true
+    title = "Appel à communications"
     bg = false
     CfSpage = "/test3490"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "09 Aug - 21 Sep 2018"
+    dates = "24 Feb - 30 Apr 2020"
 
   # Hackathon section
   [params.hackathon]
@@ -208,8 +208,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Important Dates [About] section
   [params.about]
     enable = true
-    title = "Important Dates"
-    subtitle = "Be prepared!"
+    title = "Dates importantes"
+    subtitle = "Soyez prêts !"
     endpoint = "Conference"
 
     # The events will be listed from the top to the bottom.
@@ -217,9 +217,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "First Date"
-      title = "Initial Announcement"
-      description = "We're organising a conference!"
+      date = "17 Février 2020"
+      title = "Annonce initiale"
+      description = "On organise une conférence !"
 
     [[params.about.events]]
       img = "2.jpg"
@@ -229,20 +229,20 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "Third Date"
+      date = "24 Février 2020"
       title = "Call For Papers"
-      description = "Submissions for speakers are now open!"
+      description = "Ouverture de l'appel à communications"
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "Fourth Date"
+      date = "30 Avril 2020"
       title = "Call For Papers Ends"
-      description = "Cut off date for speaker submissions"
+      description = "Fin de l'appel à communications"
 
   # Location section
   [params.location]
     enable = true
-    title = "Location title"
+    title = "Lieu de la conférence"
     bg = true
     iframesrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.5671673568268!2d-0.5643933844636646!3d44.83038177909864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd55264aa7042fd5%3A0xbf74f9f084708538!2s1%20Rue%20Jacques%20Ellul%2C%2033800%20Bordeaux!5e0!3m2!1sfr!2sfr!4v1580475862000!5m2!1sfr!2sfr"
 
@@ -252,7 +252,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Possibility to center items
     #center = true
     title = "Organisateurs"
-    subtitle = "The people putting it together"
+    subtitle = "L'équipe derrière cette conférence"
     bg = false
     description = ""
     speakers = "Speakers"
@@ -265,10 +265,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       img = "faceholder.png"
       name = "Grégoire Lecampion"
       position = "Ingénieur d'études"
-      livesIn = "[Bordeaux, France](#some-maps-url)"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
         ["fa-linkedin", "https://fr.linkedin.com/in/gregoire-le-campion-35684ab0"]
       ]
 
@@ -287,12 +284,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       name = "Sandrine Lyser"
       position = "Statisticienne"
       social = [
-        ["fa-twitter", "#"],
         ["fa-github", "https://github.com/sandrinelyser"],
         ["fa-linkedin", "https://fr.linkedin.com/in/sandrinelyser"]
       ]
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "david.jpeg"
       name = "David Carayon"
       position = "Statisticien"
       social = [
@@ -314,19 +310,19 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "envato.jpg"
+      logo = ""
       link = "#"
 
     [[params.clients]]
-      logo = "designmodo.jpg"
+      logo = ""
       link = "#"
 
     [[params.clients]]
-      logo = "themeforest.jpg"
+      logo = ""
       link = "#"
 
     [[params.clients]]
-      logo = "creative-market.jpg"
+      logo = ""
       link = "#"
 
   [params.diversity]

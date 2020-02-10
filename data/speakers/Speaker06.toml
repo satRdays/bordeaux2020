@@ -1,0 +1,9 @@
+img = "faceholder.png"
+name = "Romain Lesur"
+organisation = "Ministère de la Justice"
+role = "Adjoint au sous-directeur de la statistique et des études"
+social = [
+        ["fa-twitter", "https://twitter.com/RLesur"],
+        ["fa-github", "https://github.com/RLesur"],
+        ["fa-linkedin", "https://fr.linkedin.com/in/romain-lesur-381352"]
+      ]

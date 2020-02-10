@@ -1,0 +1,9 @@
+img = "faceholder.png"
+name = "Maël Theulière"
+organisation = "DREAL Pays de la Loire"
+role = "Chef de la division Observation, études et Statistiques "
+social = [
+        ["fa-twitter", "https://twitter.com/theulieremael"],
+        ["fa-github", "https://github.com/MaelTheuliere"],
+        ["fa-linkedin", "https://www.linkedin.com/in/mael-theuliere/?originalSubdomain=fr"]
+      ]

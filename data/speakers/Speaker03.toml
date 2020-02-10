@@ -1,0 +1,9 @@
+img = "faceholder.png"
+name = "Françoise Bahoken"
+organisation = "IFSTTAR"
+role = "Géographe et cartographe, Chargée de recherches "
+social = [
+        ["fa-twitter", "https://twitter.com/fbahoken"],
+        ["fa-github", "https://github.com/fbahoken"],
+        ["fa-linkedin", "https://fr.linkedin.com/in/fran%C3%A7oise-bahoken-a6a3a018/fr"]
+      ]

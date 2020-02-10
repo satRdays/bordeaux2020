@@ -1,0 +1,7 @@
+img = "faceholder.png"
+name = "Vanessa Kuentz-Simonet"
+organisation = "INRAE"
+role = "Chercheure en statistique"
+social = [
+        ["fa-github", "https://github.com/vkuentzsimonet"],
+      ]

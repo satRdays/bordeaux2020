@@ -1,0 +1,8 @@
+img = "faceholder.png"
+name = "Nicolas Lambert"
+organisation = "CNRS"
+role = "Cartographe"
+social = [
+        ["fa-github", "https://github.com/neocarto"],
+        ["fa-globe", "https://neocarto.hypotheses.org/"]
+      ]

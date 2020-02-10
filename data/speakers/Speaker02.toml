@@ -3,5 +3,4 @@ name = "Bénédicte Garnier"
 organisation = "INED"
 role = "Ingénieure au service méthodes statistiques"
 social = [
-        ["fa-twitter", "#"],
       ]
