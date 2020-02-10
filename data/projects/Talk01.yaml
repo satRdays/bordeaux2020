@@ -1,13 +1,13 @@
 modalID: 1
-title: "Tidyverse"
-subtitle: "Romain François"
+title: "Textmining"
+subtitle: "Bénédicte Garnier"
 date: 2020-03-14
-startsAt: 09:30
-endsAt: 10:15
+startsAt: 10:15
+endsAt: 11:00
 img: roundicons.png
 preview: faceholder.png
-client: Romain François
+client: Bénédicte Garnier 
 clientLink: "#"
-category: Category 1
-description: "Describe 1"
+category: Category 2
+description: "Describe 2"
 talk: true

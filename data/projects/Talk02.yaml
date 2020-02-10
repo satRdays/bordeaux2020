@@ -1,13 +1,13 @@
 modalID: 2
-title: "Textmining"
-subtitle: "Bénédicte Garnier"
+title: "R pour les débutants"
+subtitle: "Marylène Henry"
 date: 2020-03-14
-startsAt: 10:15
+startsAt: 09:30
 endsAt: 11:00
 img: roundicons.png
 preview: faceholder.png
-client: Bénédicte Garnier 
+client: Marylène Henry
 clientLink: "#"
-category: Category 2
-description: "Describe 2"
+category: Category 1
+description: "Un workshop sur la prise en main de R"
 talk: true

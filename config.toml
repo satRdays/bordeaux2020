@@ -253,7 +253,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.team.members]]
       img = "faceholder.png"
       name = "Grégoire Lecampion"
-      position = "Ingénieur d'études au CNRS"
+      position = "Statisticien au CNRS"
       social = [
         ["fa-linkedin", "https://fr.linkedin.com/in/gregoire-le-campion-35684ab0"]
       ]
@@ -286,6 +286,16 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         ["fa-linkedin", "https://fr.linkedin.com/in/carayon-david"]
       ]
 
+    [[params.team.members]]
+      img = "colin.jpg"
+      name = "Colin Fay"
+      position = "Data scientist chez ThinkR"
+      social = [
+        ["fa-twitter", "https://twitter.com/_ColinFay"],
+        ["fa-github", "https://github.com/ColinFay/"],
+        ["fa-linkedin", "https://fr.linkedin.com/in/colinfay"],
+        ["fa-globe", "https://colinfay.me/"]
+      ]
   # Client section
   [params.clients_list]
     enable = true
@@ -299,20 +309,20 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = ""
-      link = "#"
+      logo = "Passages.png"
+      link = "https://www.passages.cnrs.fr/"
 
     [[params.clients]]
-      logo = ""
-      link = "#"
+      logo = "caisse_depots.png"
+      link = "https://www.caissedesdepots.fr/"
 
     [[params.clients]]
-      logo = ""
-      link = "#"
+      logo = "iut.png"
+      link = "http://www.iut.u-bordeaux-montaigne.fr/"
 
     [[params.clients]]
-      logo = ""
-      link = "#"
+      logo = "INRAE.png"
+      link = "https://www.inrae.fr/"
 
   [params.diversity]
     enable = true
