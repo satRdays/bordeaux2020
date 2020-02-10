@@ -81,7 +81,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Bordeaux"
-    subtitle = "Une conférence dédiée aux utilisateurs de R le 16 mai 2020 à Bordeaux"
+    subtitle = "Une conférence dédiée aux utilisateurs de R      le 16 mai 2020 à Bordeaux"
     bg = true
     buttonText = "En savoir plus"
 
@@ -201,7 +201,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Schedule section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Programme"
     bg = false
 
@@ -217,13 +217,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "17 Février 2020"
-      title = "Annonce initiale"
-      description = "On organise une conférence !"
-    
-    
-    [[params.about.events]]
-      img = "2.jpg"
       date = "17 Février 2020"
       title = "Annonce initiale"
       description = "On organise une conférence !"
