@@ -81,7 +81,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Bordeaux"
-    subtitle = "Une conférence dédiée aux utilisateurs de R le 16 mai 2020 à Bordeaux"
+    subtitle = "Une conférence dédiée aux utilisateurs de R        le 16 mai 2020 à Bordeaux"
     bg = true
     buttonText = "En savoir plus"
 
@@ -89,8 +89,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # About [Services] section
   [params.services]
     enable = true
-    title = "A propos"
-    subtitle = "La conférence en 6 points"
+    title = "À propos"
+    subtitle = "La conférence en 6 points :"
 
     [[params.services.row]]
 
@@ -120,8 +120,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.services.row.list]]
       icon = "fa-money"
-      title = "A prix abordable"
-      description = "Inscription gratuite"
+      title = "Prix abordable"
+      description = "Inscription gratuite à la conférence"
       url = "#"
 
     [[params.services.row.list]]
@@ -172,15 +172,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hackathon]
     enable = false
     bg = false
-    title = "Hackathon"
-    subtitle="Can you _Hack_ it?"
-    brief1="You _can_ put markdown in the briefs section"
-    brief2="But you __MUST__ hardcode html links <a href= 'www.google.com' > google  </a> for further info."
-    location= "The place we're going it"
-    dates = "15 November 2019"
-    times= "13:00-17:30"
-    website_name="google"
-    website_url="www.google.com"
 
   # Talk [Portfolio] section
   [params.portfolio]
@@ -190,14 +181,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Communications"
-    subtitle = "Who's saying what"
+    subtitle = "Qui dit quoi ?"
     bg = true
 
     [params.portfolio.modal]
       client = "Client"
       date = "Date"
       category = "Category"
-      buttonText = "Close project"
+      buttonText = "Retour au site"
 
   # Schedule section
   [params.schedule]
@@ -210,7 +201,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     title = "Dates importantes"
     subtitle = "Soyez prêts !"
-    endpoint = "Conference"
+    endpoint = "SatRday Bordeaux"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -222,22 +213,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       description = "On organise une conférence !"
 
     [[params.about.events]]
-      img = "2.jpg"
-      date = "Second Date"
-      title = "Early Bird Ticket Sales"
-      description = "Early round of tickets now available at discount"
-
-    [[params.about.events]]
       img = "3.jpg"
       date = "24 Février 2020"
-      title = "Call For Papers"
-      description = "Ouverture de l'appel à communications"
+      title = "Ouverture de l'appel à communications"
 
     [[params.about.events]]
       img = "4.jpg"
       date = "30 Avril 2020"
-      title = "Call For Papers Ends"
-      description = "Fin de l'appel à communications"
+      title = "Fin de l'appel à communications"
 
   # Location section
   [params.location]
