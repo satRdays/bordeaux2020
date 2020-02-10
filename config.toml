@@ -81,7 +81,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Bordeaux"
-    subtitle = "Une conférence dédiée aux utilisateurs de R      le 16 mai 2020 à Bordeaux"
+    subtitle = "Une conférence dédiée aux utilisateurs de R le 16 mai 2020 à Bordeaux"
     bg = true
     buttonText = "En savoir plus"
 
@@ -259,7 +259,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.team.members]]
       img = "faceholder.png"
       name = "Grégoire Lecampion"
-      position = "Ingénieur d'études"
+      position = "Ingénieur d'études au CNRS"
       social = [
         ["fa-linkedin", "https://fr.linkedin.com/in/gregoire-le-campion-35684ab0"]
       ]
@@ -267,7 +267,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.team.members]]
       img = "faceholder.png"
       name = "Marylène Henry"
-      position = "Statisticienne"
+      position = "Statisticienne à la Caisse des Dépôts"
       social = [
         ["fa-twitter", "https://twitter.com/henry_marylene"],
         ["fa-github", "https://github.com/MaryleneH"],
@@ -277,7 +277,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.team.members]]
       img = "faceholder.png"
       name = "Sandrine Lyser"
-      position = "Statisticienne"
+      position = "Statisticienne à INRAE"
       social = [
         ["fa-github", "https://github.com/sandrinelyser"],
         ["fa-linkedin", "https://fr.linkedin.com/in/sandrinelyser"]
@@ -285,7 +285,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.team.members]]
       img = "david.jpeg"
       name = "David Carayon"
-      position = "Statisticien"
+      position = "Statisticien à INRAE"
       social = [
         ["fa-twitter", "https://twitter.com/david_carayon"],
         ["fa-github", "https://github.com/davidcarayon"],
@@ -322,7 +322,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   [params.diversity]
     enable = true
-    title = "Diversity"
+    title = "Diversité"
     bg = true
 
   # Contact section
