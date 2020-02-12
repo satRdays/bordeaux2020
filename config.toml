@@ -269,7 +269,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "sandrine.jpeg"
       name = "Sandrine Lyser"
       position = "Statisticienne à INRAE"
       social = [

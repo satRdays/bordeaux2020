@@ -1,8 +1,7 @@
 img = "faceholder.png"
-name = "Nicolas Lambert"
+name = "Hugues Pécout"
 organisation = "CNRS"
-role = "Cartographe"
+role = "Ingénieur géomaticien"
 social = [
-        ["fa-github", "https://github.com/neocarto"],
-        ["fa-globe", "https://neocarto.hypotheses.org/"]
+        ["fa-linkedin", "https://fr.linkedin.com/in/hugues-pecout-21119871"]
       ]

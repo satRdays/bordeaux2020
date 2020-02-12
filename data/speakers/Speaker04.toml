@@ -1,7 +1,8 @@
 img = "faceholder.png"
-name = "Vanessa Kuentz-Simonet"
-organisation = "INRAE"
-role = "Chercheure en statistique"
+name = "Nicolas Lambert"
+organisation = "CNRS"
+role = "Cartographe"
 social = [
-        ["fa-github", "https://github.com/vkuentzsimonet"],
+        ["fa-github", "https://github.com/neocarto"],
+        ["fa-globe", "https://neocarto.hypotheses.org/"]
       ]

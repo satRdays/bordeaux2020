@@ -1,7 +1,0 @@
-img = "faceholder.png"
-name = "Hugues Pécout"
-organisation = "CNRS"
-role = "Ingénieur géomaticien"
-social = [
-        ["fa-linkedin", "https://fr.linkedin.com/in/hugues-pecout-21119871"]
-      ]
