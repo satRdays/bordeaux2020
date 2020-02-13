@@ -155,12 +155,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Call for papers section
   [params.callforpapers]
-    enable = true
-    title = "Appel à communications"
-    bg = false
-    CfSpage = "/satrdaybdx"
+    enable = false
+    # title = "Appel à communications"
+    # bg = false
+    # CfSpage = "/satrdaybdx"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "17 Feb - 30 Apr 2020"
+    # dates = "17 Feb - 30 Apr 2020"
 
   # Hackathon section
   [params.hackathon]
@@ -355,7 +355,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "satrdaybdx@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
