@@ -210,22 +210,27 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
-      date = "17 Février 2020"
+      img = "1.png"
+      date = "10 Février 2020"
       title = "Annonce initiale"
       description = "On organise une conférence !"
 
+    [[params.about.events]]
+      img = "2.png"
+      date = "17 Février 2020"
+      title = "Ouverture de l'appel à communications et des inscriptions"
+      description = "Se reporter au formulaire"
 
     [[params.about.events]]
-      img = "3.jpg"
-      date = "24 Février 2020"
-      title = "Ouverture de l'appel à communications"
-      description = ""
-
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "30 Avril 2020"
+      img = "3.png"
+      date = "31 Mars 2020"
       title = "Fin de l'appel à communications"
+      description = ""
+        
+    [[params.about.events]]
+      img = "4.png"
+      date = "15 Avril 2020"
+      title = "Fin des inscriptions"
       description = ""
 
   # Location section
