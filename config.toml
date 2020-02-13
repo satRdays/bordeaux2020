@@ -155,9 +155,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Call for papers section
   [params.callforpapers]
-    enable = false
-    # title = "Appel à communications"
-    # bg = false
+    enable = true
+    title = "Appel à communications"
+    bg = false
     # CfSpage = "/satrdaybdx"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
     # dates = "17 Feb - 30 Apr 2020"
