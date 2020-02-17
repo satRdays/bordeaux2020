@@ -197,7 +197,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.schedule]
     enable = true
     title = "Programme prévisionnel"
-    bg = false
+    bg = true
 
   # Important Dates [About] section
   [params.about]
