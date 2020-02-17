@@ -1,0 +1,169 @@
+{{ "<!-- Schedule -->" | safeHTML }}
+<section id="schedule" {{ if .Site.Params.schedule.bg }}
+class="bg-light-gray"
+{{ end }}>
+  <div class="container">
+        <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.schedule.title }}{{ . | markdownify }}{{ end }}</h2>
+      </div>
+    </div>
+    <table width="601" cellpadding="7" cellspacing="0">
+	<col width="185"/>
+
+	<col width="186"/>
+
+	<col width="185"/>
+
+	<tr valign="top">
+		<td width="185" height="17" style="border: 1.00pt solid #000000; padding: 0.18cm"><p>
+			 
+			</p>
+		</td>
+		<td width="186" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p align="center">
+			<b>Talks</b></p>
+		</td>
+		<td width="185" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p align="center">
+			<b>Workshop</b></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="185" height="18" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>9h00 - 9h30</b></p>
+		</td>
+		<td colspan="2" width="386" bgcolor="#d9d9d9" style="background: #d9d9d9" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p align="center">
+			Accueil / café / croissant / <b>CHOCOLATINE…</b></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="185" height="52" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>9h30 - 10h15</b></p>
+		</td>
+		<td width="186" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p style="margin-top: 0.42cm; margin-bottom: 0cm">
+			<b>Victor Perrier</b></p>
+			<p style="margin-top: 0.42cm">Visualisation avec R</p>
+		</td>
+		<td rowspan="2" width="185" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p style="margin-bottom: 0cm">
+			<b>Marylène Henry</b></p>
+			<p>R pour les débutants</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="185" height="52" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>10h15 - 11h00</b></p>
+		</td>
+		<td width="186" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p align="justify" style="margin-bottom: 0.42cm">
+			<b>Colin Fay</b></p>
+			<p align="justify" style="margin-top: 0.42cm">Golem</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="185" height="18" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>11h00 - 11h15</b></p>
+		</td>
+		<td colspan="2" width="386" bgcolor="#d9d9d9" style="background: #d9d9d9" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p align="center">
+			<b>Pause café</b></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="185" height="36" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>11h15 - 12h00</b></p>
+		</td>
+		<td width="186" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p style="margin-bottom: 0cm">
+			<b>Bénédicte Garnier</b></p>
+			<p>Textmining</p>
+		</td>
+		<td rowspan="2" width="185" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p style="margin-bottom: 0cm">
+			<b>Françoise Bahoken &amp;  Nicolas Lambert</b></p>
+			<p>carto de flux avec R (cartograflow &amp; cartography &amp; Cie)</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="185" height="36" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>12h00 - 12h45</b></p>
+		</td>
+		<td width="186" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>???</b></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="185" height="18" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>12h45 - 14h00</b></p>
+		</td>
+		<td colspan="2" width="386" bgcolor="#d9d9d9" style="background: #d9d9d9" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p align="center">
+			<b>Pause repas</b></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="185" height="87" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>14h00 - 14h45</b></p>
+		</td>
+		<td width="186" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p style="margin-top: 0.42cm">
+			<b>???</b></p>
+		</td>
+		<td rowspan="2" width="185" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p style="margin-bottom: 0.42cm">
+			<b>Marion Louveaux</b></p>
+			<p style="margin-top: 0.42cm">Les premiers pas dans la réalisation
+			d'un package R</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="185" height="88" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>14h45 - 15h30</b></p>
+		</td>
+		<td width="186" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p style="margin-bottom: 0.42cm">
+			<b>Marion Maisonobe &amp; Hugues Pécout</b></p>
+			<p style="margin-top: 0.42cm">Analyse de réseaux, igraph…</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="185" height="18" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>15h30 - 15h45</b></p>
+		</td>
+		<td colspan="2" width="386" bgcolor="#d9d9d9" style="background: #d9d9d9" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p align="center">
+			<b>Pause café</b></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="185" height="21" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>15h45 - 16h30</b></p>
+		</td>
+		<td width="186" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p style="margin-bottom: 0cm">
+			<b>Maël Theulière</b></p>
+			<p>Rmardown</p>
+		</td>
+		<td rowspan="2" width="185" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p style="margin-bottom: 0cm">
+			<b>Fanny Meyer</b></p>
+			<p style="margin-bottom: 0cm"><br/>
+
+			</p>
+			<p>Atelier data.table</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="185" height="18" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>16h30 - 17h15</b></p>
+		</td>
+		<td width="186" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>???</b></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="185" height="18" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>17h15 - 17h30</b></p>
+		</td>
+		<td colspan="2" width="386" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			MolieR et Actualités Réseau Bordeaux</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="185" height="17" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>17h30</b></p>
+		</td>
+		<td colspan="2" width="386" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1px solid #000000; border-right: 1.00pt solid #000000; padding: 0.18cm"><p>
+			<b>Conclusion</b></p>
+		</td>
+	</tr>
+</table>
+  </div>
+</section>
