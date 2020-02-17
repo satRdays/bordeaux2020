@@ -256,7 +256,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "gregoire.JPG"
+      img = "gregoire.png"
       name = "Grégoire Le Campion"
       position = "Statisticien au CNRS"
       social = [
