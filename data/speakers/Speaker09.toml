@@ -1,0 +1,7 @@
+img = "rlogo.png"
+name = "Marion Maisonobe"
+organisation = "CNRS"
+role = "Chargée de Recherche analyse de réseaux"
+social = [
+        ["fa-linkedin", "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=15&cad=rja&uact=8&ved=2ahUKEwjH-uuU7drnAhUFA2MBHfKEDKMQFjAOegQIAhAB&url=https%3A%2F%2Ffr.linkedin.com%2Fin%2Fmarion-maisonobe-06b037a3&usg=AOvVaw0Q2bJUK4Al6CN4HVHSOLOP"]
+      ]

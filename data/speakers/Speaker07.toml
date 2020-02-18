@@ -1,0 +1,8 @@
+img = "fanny_meyer.png"
+name = "Fanny Meyer"
+organisation = "dreamRs"
+role = "DataMuse & DataDreamRs"
+social = [
+        ["fa-twitter", "https://twitter.com/_mfaan"],
+        ["fa-github", "https://github.com/mfanny"]
+      ]

@@ -1,0 +1,10 @@
+img = "rlogo.png"
+name = "Marion Louveaux"
+organisation = "Institut Pasteur"
+role = "Bioimage analyst & Data scientist"
+social = [
+        ["fa-twitter", "https://twitter.com/MarionLouveaux"],
+        ["fa-github", "https://github.com/marionlouveaux"],
+        ["fa-linkedin", "https://linkedin.com/in/marion-louveaux-928b49112/"],
+        ["fa-globe", "https://marionlouveaux.fr"]
+      ]
