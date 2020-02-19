@@ -72,7 +72,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # postpended links
     [[menu.postpend]]
       url = "http://satrdays.org/"
-      hrefTargetBlank = true
+      hrefTargetBlank = false
       name = "satRdays.org"
       weight = 10
 
