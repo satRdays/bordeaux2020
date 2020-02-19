@@ -217,6 +217,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       description = "On organise une conférence !"
 
     [[params.about.events]]
+      img = "3.png"
+      date = "17 Février 2020"
+      url = "https://forms.gle/HTRzZ7F4T5J36yDq7"
+      title = "Ouverture de l'appel à communications"
+      description = "Se reporter à la rubrique dédiée"
+
+    [[params.about.events]]
       img = "2.png"
       date = "09 Mars 2020"
       title = "Ouverture des inscriptions"
