@@ -4,6 +4,10 @@ languageCode = "en-us"
 title = "satRday Bordeaux"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
 
+
+enableRobotsTXT = true
+canonifyURLs = true
+
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
