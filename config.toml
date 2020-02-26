@@ -9,7 +9,7 @@ enableRobotsTXT = true
 canonifyURLs = true
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-159159673-1"
 
 # Disable taxonomies that are not used https://discourse.gohugo.io/t/found-no-layout-for-taxonomyterm-language-en-output-format-html/16376
 disableKinds = ["taxonomy", "taxonomyTerm"]
