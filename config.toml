@@ -346,8 +346,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       link = "https://thinkr.fr/"
 
     [[params.clients]]
+      logo = "insee.jpg"
+      link = "https://www.insee.fr/fr/accueil"
+
+    [[params.clients]]
       logo = "heph.png"
       link = "http://hephaistos.ai/"
+
 
   [params.diversity]
     enable = true
