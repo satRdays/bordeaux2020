@@ -345,10 +345,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       logo = "thinkR.png"
       link = "https://thinkr.fr/"
 
-    [[params.clients]]
-      logo = "heph.png"
-      link = "http://hephaistos.ai/"
-
   [params.diversity]
     enable = true
     title = "Diversité"
