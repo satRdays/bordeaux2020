@@ -122,7 +122,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Prix abordable"
-      description = "L'inscription est gratuite !"
+      description = "inscriptions à partir de 10€, gratuit sous conditions"
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
