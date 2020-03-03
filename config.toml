@@ -350,8 +350,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       link = "https://www.insee.fr/fr/accueil"
 
     [[params.clients]]
+      logo = "DreamRs.png"
+      link = "https://www.dreamrs.fr/"
+
+    [[params.clients]]
       logo = "heph.png"
       link = "http://hephaistos.ai/"
+
 
 
   [params.diversity]
