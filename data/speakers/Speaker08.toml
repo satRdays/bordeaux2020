@@ -4,5 +4,6 @@ organisation = "dreamRs"
 role = "DataArtist & DataDreamRs"
 social = [
         ["fa-twitter", "https://twitter.com/_pvictorr"],
-        ["fa-github", "https://github.com/pvictor"]
+        ["fa-github", "https://github.com/pvictor"],
+	["fa-linkedin", "https://www.linkedin.com/in/victor-perrier-15623576/"]
       ]

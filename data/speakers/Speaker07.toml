@@ -4,5 +4,6 @@ organisation = "dreamRs"
 role = "DataMuse & DataDreamRs"
 social = [
         ["fa-twitter", "https://twitter.com/_mfaan"],
-        ["fa-github", "https://github.com/mfanny"]
+        ["fa-github", "https://github.com/mfanny"],
+	["fa-linkedin", "https://www.linkedin.com/in/fanny-meyer-35370565/"]
       ]

@@ -122,7 +122,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Prix abordable"
-      description = "inscriptions à partir de 10€, gratuit sous conditions"
+      description = "Inscription à partir de 10€, gratuite sous conditions"
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
@@ -325,25 +325,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # All the clients' logos are stored under 'static/img/logos'.
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
+    
     [[params.clients]]
-      logo = "Passages.png"
-      link = "https://www.passages.cnrs.fr/"
-
-    [[params.clients]]
-      logo = "caisse_depots.png"
-      link = "https://www.caissedesdepots.fr/"
-
-    [[params.clients]]
-      logo = "iut.png"
-      link = "http://www.iut.u-bordeaux-montaigne.fr/"
-
-    [[params.clients]]
-      logo = "INRAE.png"
-      link = "https://www.inrae.fr/"
-      
-    [[params.clients]]
-      logo = "thinkR.png"
-      link = "https://thinkr.fr/"
+      logo = "Rstudio.png"
+      link = "https://rstudio.com/"
 
     [[params.clients]]
       logo = "insee.jpg"
@@ -354,10 +339,28 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       link = "https://www.dreamrs.fr/"
 
     [[params.clients]]
+      logo = "caisse_depots.png"
+      link = "https://www.caissedesdepots.fr/"
+
+    [[params.clients]]
+      logo = "iut.png"
+      link = "http://www.iut.u-bordeaux-montaigne.fr/"
+
+    [[params.clients]]
+      logo = "Passages.png"
+      link = "https://www.passages.cnrs.fr/"
+
+    [[params.clients]]
+      logo = "INRAE.png"
+      link = "https://www.inrae.fr/"
+      
+    [[params.clients]]
+      logo = "thinkR.png"
+      link = "https://thinkr.fr/"
+
+    [[params.clients]]
       logo = "heph.png"
       link = "http://hephaistos.ai/"
-
-
 
   [params.diversity]
     enable = true
