@@ -278,7 +278,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.team.members]]
       img = "marylene.jpeg"
       name = "Marylène Henry"
-      position = "Statisticienne à la Caisse des Dépôts"
+      position = " Data analyst à l'INSEE"
       social = [
         ["fa-twitter", "https://twitter.com/henry_marylene"],
         ["fa-github", "https://github.com/MaryleneH"],
@@ -337,10 +337,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.clients]]
       logo = "DreamRs.png"
       link = "https://www.dreamrs.fr/"
-
-    [[params.clients]]
-      logo = "caisse_depots.png"
-      link = "https://www.caissedesdepots.fr/"
 
     [[params.clients]]
       logo = "iut.png"
