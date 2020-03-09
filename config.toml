@@ -278,7 +278,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.team.members]]
       img = "marylene.jpeg"
       name = "Marylène Henry"
-      position = " Data analyst à l'INSEE"
+      position = " Statisticienne à l'INSEE"
       social = [
         ["fa-twitter", "https://twitter.com/henry_marylene"],
         ["fa-github", "https://github.com/MaryleneH"],
@@ -341,6 +341,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.clients]]
       logo = "iut.png"
       link = "http://www.iut.u-bordeaux-montaigne.fr/"
+
+    [[params.clients]]
+      logo = "logo_somate.png"
+      link = "https://hal.archives-ouvertes.fr/hal-02175567"
 
     [[params.clients]]
       logo = "Passages.png"

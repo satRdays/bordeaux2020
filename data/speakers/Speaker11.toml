@@ -1,7 +1,7 @@
 img = "marylene.jpeg"
 name = "Marylène Henry"
 organisation = "INSEE"
-role = "Data analyst"
+role = "Statisticienne"
 social = [
         ["fa-twitter", "https://twitter.com/henry_marylene"],
         ["fa-github", "https://github.com/MaryleneH"],
