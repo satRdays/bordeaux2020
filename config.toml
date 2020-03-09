@@ -132,7 +132,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Register section
   # You only need ONE of these active
   [params.tito]
-    enable = false
+    enable = true
     title = "Inscriptions"
     bg = false
     # accountevent = "satrday-bordeaux/inscriptions-2020"
