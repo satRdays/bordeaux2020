@@ -132,10 +132,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Register section
   # You only need ONE of these active
   [params.tito]
-    enable = true
-    title = "Inscriptions (Ouverture le 16 mars 2020)"
-    bg = true
-    accountevent = "satrday-bordeaux/inscriptions-2020"
+    enable = false
+    title = "Inscriptions"
+    bg = false
+    # accountevent = "satrday-bordeaux/inscriptions-2020"
       # Go to https://ti.to/ and find the account (under your user) and event pair string e.g. "cardiff-satrday/2018"
       # include botht the account and event in a string, seperated by /, with no spaces
 
