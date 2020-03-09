@@ -435,12 +435,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "https://twitter.com/satrdays_org"
+      link = "https://twitter.com/satRdayFrance"
       title = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-github"
-      link = "https://github.com/satRdays"
+      link = "https://github.com/satRdays/bordeaux2020"
       title = "GitHub"
 
     [[params.footer.quicklinks]]
