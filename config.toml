@@ -86,7 +86,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Bordeaux"
-    subtitle = "Une conférence dédiée aux utilisateurs de R le 16 mai 2020 à Bordeaux"
+    subtitle = "ATTENTION : En raison du contexte actuel d'épidémie COVID-19, la conférence est reportée à Décembre 2020."
     bg = true
     buttonText = "En savoir plus"
 
@@ -102,7 +102,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Où et quand"
-      description = "Le 16 mai 2020 à Bordeaux"
+      description = "Le 5 décembre 2020 à Bordeaux"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
@@ -357,6 +357,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.clients]]
       logo = "thinkR.png"
       link = "https://thinkr.fr/"
+
+    [[params.clients]]
+      logo = "TBM.png"
+      link = "https://www.infotbm.com/fr"
+
+    [[params.clients]]
+      logo = "aquinum.png"
+      link = "https://www.aquinum.fr/"
 
     [[params.clients]]
       logo = "heph.png"
