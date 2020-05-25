@@ -86,7 +86,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Bordeaux"
-    subtitle = "ATTENTION : En raison du contexte actuel d'épidémie COVID-19, la conférence est reportée à Décembre 2020."
+    subtitle = "En raison de la pandémie mondiale, nous n'avons pu nous réunir le 15 mai 2020. Cependant, rassurez-vous ! notre journée SatRday est simplement reportée à mars 2021. Nous serons là Ravis de vous accueillir avec des conditions sanitaires que nous souhaitons plus appropriées. Prenez bien soin de vous et à très bientôt."
     bg = true
     buttonText = "En savoir plus"
 
